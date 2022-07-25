@@ -1,0 +1,21 @@
+low:
+$\alpha$=5.0, $\neg$g, $\neg$v, $\neg$f
+
+medium:
+$\alpha$=0.5, $\neg$g, $\neg$v, $\neg$f
+$\alpha$=5.0, $\neg$g, $\neg$v, $\neg$f
+$\alpha$=5.0, g, $\neg$v, $\neg$f
+$\alpha$=5.0, g, v, f
+
+high:
+$\alpha$=0.5, $\neg$g, $\neg$v, $\neg$f
+$\alpha$=0.5, $\neg$g, $\neg$v, f
+$\alpha$=0.5, $\neg$g, v, f
+$\alpha$=0.5, g, $\neg$v, $\neg$f
+$\alpha$=0.5, g, v, f
+$\alpha$=5.0, $\neg$g, $\neg$v, $\neg$f
+$\alpha$=5.0, $\neg$g, v, f
+$\alpha$=5.0, g, v, $\neg$f
+$\alpha$=5.0, g, $\neg$v, $\neg$f
+$\alpha$=5.0, g, v, f
+

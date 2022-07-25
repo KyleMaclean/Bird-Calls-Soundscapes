@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 4.8.5
+-- The CXX compiler identification is GNU 4.8.5
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/lib64/ccache/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/lib64/ccache/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenMP_C: -fopenmp (found version "3.1") 
+-- Found OpenMP_CXX: -fopenmp (found version "3.1") 
+-- Found OpenMP: TRUE (found version "3.1")  
+-- Looking for CL_VERSION_2_2
+-- Looking for CL_VERSION_2_2 - not found
+-- Looking for CL_VERSION_2_1
+-- Looking for CL_VERSION_2_1 - not found
+-- Looking for CL_VERSION_2_0
+-- Looking for CL_VERSION_2_0 - not found
+-- Looking for CL_VERSION_1_2
+-- Looking for CL_VERSION_1_2 - found
+-- Found OpenCL: /usr2/local/cuda-11.0/lib64/libOpenCL.so (found version "1.2") 
+-- OpenCL include directory: /usr2/local/cuda-11.0/include
+CMake Error at /cs/home/psykjm/cmake/share/cmake-3.23/Modules/FindBoost.cmake:1824 (file):
+  file STRINGS file
+  "/cs/home/psykjm/boost/boost_1_78_0/boost/boost/version.hpp" cannot be
+  read.
+Call Stack (most recent call first):
+  CMakeLists.txt:164 (find_package)
+
+
+CMake Warning at /cs/home/psykjm/cmake/share/cmake-3.23/Modules/FindBoost.cmake:1015 (message):
+  Imported targets and dependency information not available for Boost version
+  0.0.0 (all versions older than 1.33)
+Call Stack (most recent call first):
+  /cs/home/psykjm/cmake/share/cmake-3.23/Modules/FindBoost.cmake:1507 (_Boost_COMPONENT_DEPENDENCIES)
+  /cs/home/psykjm/cmake/share/cmake-3.23/Modules/FindBoost.cmake:2117 (_Boost_MISSING_DEPENDENCIES)
+  CMakeLists.txt:164 (find_package)
+
+
+CMake Error at /cs/home/psykjm/cmake/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+  Could NOT find Boost: Found unsuitable version "0.0.0", but required is at
+  least "1.56.0" (found /cs/home/psykjm/boost/boost_1_78_0/boost, )
+Call Stack (most recent call first):
+  /cs/home/psykjm/cmake/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake:592 (_FPHSA_FAILURE_MESSAGE)
+  /cs/home/psykjm/cmake/share/cmake-3.23/Modules/FindBoost.cmake:2375 (find_package_handle_standard_args)
+  CMakeLists.txt:164 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/cs/home/psykjm/LightGBM/python-package/build_cpp/CMakeFiles/CMakeOutput.log".
+See also "/cs/home/psykjm/LightGBM/python-package/build_cpp/CMakeFiles/CMakeError.log".

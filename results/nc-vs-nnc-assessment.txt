@@ -1,0 +1,40 @@
+med-diversity:
+
+`4-nnc-id=36-ma=0.5-gba=F-v=F-f=F`	29	5535	20220306081510.pth
+`4-nnc-id=51-ma=5.0-gba=F-v=F-f=F`	92	5878	20220302235914.pth
+`4-nnc-id=58-ma=5.0-gba=T-v=F-f=F`	95	4472	20220303094905.pth
+`4-nnc-id=59-ma=5.0-gba=T-v=F-f=F`	99	4461	20220303101151.pth
+`4-nnc-id=60-ma=5.0-gba=T-v=F-f=F`	72	4455	20220303073758.pth
+`4-nnc-id=61-ma=5.0-gba=T-v=F-f=F`	85	4455	20220303085205.pth
+`4-nnc-id=62-ma=5.0-gba=T-v=F-f=F`	97	4451	20220303100027.pth
+`4-nnc-id=91-ma=5.0-gba=T-v=F-f=F`	94	4432	20220303094324.pth
+`4-nnc-id=92-ma=5.0-gba=T-v=T-f=T`	80	4483	20220303184240.pth
+`4-nnc-id=98-ma=5.0-gba=T-v=T-f=T`	84	4483	20220303190749.pth
+
+`4-nc-id=36-ma=0.5-gba=F-v=F-f=F`	76	5472	20220306025541.pth
+`4-nc-id=51-ma=5.0-gba=F-v=F-f=F`	92	5554	20220304225616.pth
+`4-nc-id=58-ma=5.0-gba=T-v=F-f=F`	67	3964	20220305055936.pth
+`4-nc-id=59-ma=5.0-gba=T-v=F-f=F`	97	3962	20220305084800.pth
+`4-nc-id=60-ma=5.0-gba=T-v=F-f=F`	79	3946	20220305070659.pth
+`4-nc-id=61-ma=5.0-gba=T-v=F-f=F`	99	3946	20220305085915.pth
+`4-nc-id=62-ma=5.0-gba=T-v=F-f=F`	72	3943	20220305062741.pth
+`4-nc-id=91-ma=5.0-gba=T-v=F-f=F`	95	3924	20220305083647.pth
+`4-nc-id=92-ma=5.0-gba=T-v=T-f=T`	71	4105	20220305162639.pth
+`4-nc-id=98-ma=5.0-gba=T-v=T-f=T`	94	4060	20220305184913.pth
+
+extra-for-complete-diversity:
+
+got first:
+FFF
+FFT
+FTF
+FTT
+
+got second:
+FFF
+TFF
+TTT
+
+getting third:
+TFT
+TTF

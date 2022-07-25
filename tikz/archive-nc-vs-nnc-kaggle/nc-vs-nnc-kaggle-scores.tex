@@ -1,0 +1,103 @@
+% This file was created with tikzplotlib v0.10.1.
+\begin{tikzpicture}
+
+\definecolor{darkgray176}{RGB}{176,176,176}
+\definecolor{lightgray}{RGB}{211,211,211}
+\definecolor{lightgray204}{RGB}{204,204,204}
+
+\begin{groupplot}[group style={group size=2 by 1}]
+\nextgroupplot[
+tick align=outside,
+tick pos=left,
+x grid style={darkgray176},
+xmin=-0.69, xmax=10.09,
+xtick style={color=black},
+xtick={0.4,1.4,2.4,3.4,4.4,5.4,6.4,7.4,8.4,9.4},
+xticklabels={1,2,3,4,5,6,7,8,9,10},
+y grid style={darkgray176},
+ylabel={Public F1 Score},
+ymin=0, ymax=0.799365,
+ytick style={color=black}
+]
+\draw[draw=black,fill=lightgray] (axis cs:-0.2,0) rectangle (axis cs:0.2,0.7272);
+\addlegendimage{ybar,ybar legend,draw=black,fill=lightgray}
+\addlegendentry{nc}
+
+\draw[draw=black,fill=lightgray] (axis cs:0.8,0) rectangle (axis cs:1.2,0.7531);
+\draw[draw=black,fill=lightgray] (axis cs:1.8,0) rectangle (axis cs:2.2,0.7566);
+\draw[draw=black,fill=lightgray] (axis cs:2.8,0) rectangle (axis cs:3.2,0.7563);
+\draw[draw=black,fill=lightgray] (axis cs:3.8,0) rectangle (axis cs:4.2,0.7576);
+\draw[draw=black,fill=lightgray] (axis cs:4.8,0) rectangle (axis cs:5.2,0.7554);
+\draw[draw=black,fill=lightgray] (axis cs:5.8,0) rectangle (axis cs:6.2,0.7597);
+\draw[draw=black,fill=lightgray] (axis cs:6.8,0) rectangle (axis cs:7.2,0.7601);
+\draw[draw=black,fill=lightgray] (axis cs:7.8,0) rectangle (axis cs:8.2,0.7613);
+\draw[draw=black,fill=lightgray] (axis cs:8.8,0) rectangle (axis cs:9.2,0.7594);
+\draw[draw=none,fill=black] (axis cs:0.2,0) rectangle (axis cs:0.6,0.5738);
+\addlegendimage{ybar,ybar legend,draw=none,fill=black}
+\addlegendentry{$\neg$nc}
+
+\draw[draw=none,fill=black] (axis cs:1.2,0) rectangle (axis cs:1.6,0.6579);
+\draw[draw=none,fill=black] (axis cs:2.2,0) rectangle (axis cs:2.6,0.5717);
+\draw[draw=none,fill=black] (axis cs:3.2,0) rectangle (axis cs:3.6,0.5625);
+\draw[draw=none,fill=black] (axis cs:4.2,0) rectangle (axis cs:4.6,0.5432);
+\draw[draw=none,fill=black] (axis cs:5.2,0) rectangle (axis cs:5.6,0.5858);
+\draw[draw=none,fill=black] (axis cs:6.2,0) rectangle (axis cs:6.6,0.5694);
+\draw[draw=none,fill=black] (axis cs:7.2,0) rectangle (axis cs:7.6,0.5488);
+\draw[draw=none,fill=black] (axis cs:8.2,0) rectangle (axis cs:8.6,0.5336);
+\draw[draw=none,fill=black] (axis cs:9.2,0) rectangle (axis cs:9.6,0.5199);
+
+\nextgroupplot[
+axis y line=right,
+legend cell align={left},
+legend columns=2,
+legend style={
+  fill opacity=0.8,
+  draw opacity=1,
+  text opacity=1,
+  at={(0.4,1)},
+  anchor=south west,
+  draw=lightgray204
+},
+tick align=outside,
+x grid style={darkgray176},
+xmin=-0.69, xmax=10.09,
+xtick pos=left,
+xtick style={color=black},
+xtick={0.4,1.4,2.4,3.4,4.4,5.4,6.4,7.4,8.4,9.4},
+xticklabels={1,2,3,4,5,6,7,8,9,10},
+y grid style={darkgray176},
+ylabel={Private F1 Score},
+ymin=0, ymax=0.72198,
+ytick pos=right,
+ytick style={color=black},
+yticklabel style={anchor=west}
+]
+\draw[draw=black,fill=lightgray] (axis cs:-0.2,0) rectangle (axis cs:0.2,0.668);
+\draw[draw=black,fill=lightgray] (axis cs:0.8,0) rectangle (axis cs:1.2,0.6876);
+\draw[draw=black,fill=lightgray] (axis cs:1.8,0) rectangle (axis cs:2.2,0.6875);
+\draw[draw=black,fill=lightgray] (axis cs:2.8,0) rectangle (axis cs:3.2,0.6849);
+\draw[draw=black,fill=lightgray] (axis cs:3.8,0) rectangle (axis cs:4.2,0.6818);
+\draw[draw=black,fill=lightgray] (axis cs:4.8,0) rectangle (axis cs:5.2,0.6848);
+\draw[draw=black,fill=lightgray] (axis cs:5.8,0) rectangle (axis cs:6.2,0.6826);
+\draw[draw=black,fill=lightgray] (axis cs:6.8,0) rectangle (axis cs:7.2,0.6801);
+\draw[draw=black,fill=lightgray] (axis cs:7.8,0) rectangle (axis cs:8.2,0.6796);
+\draw[draw=black,fill=lightgray] (axis cs:8.8,0) rectangle (axis cs:9.2,0.6773);
+\draw[draw=none,fill=black] (axis cs:0.2,0) rectangle (axis cs:0.6,0.5477);
+\draw[draw=none,fill=black] (axis cs:1.2,0) rectangle (axis cs:1.6,0.62);
+\draw[draw=none,fill=black] (axis cs:2.2,0) rectangle (axis cs:2.6,0.5412);
+\draw[draw=none,fill=black] (axis cs:3.2,0) rectangle (axis cs:3.6,0.5439);
+\draw[draw=none,fill=black] (axis cs:4.2,0) rectangle (axis cs:4.6,0.5275);
+\draw[draw=none,fill=black] (axis cs:5.2,0) rectangle (axis cs:5.6,0.5599);
+\draw[draw=none,fill=black] (axis cs:6.2,0) rectangle (axis cs:6.6,0.5477);
+\draw[draw=none,fill=black] (axis cs:7.2,0) rectangle (axis cs:7.6,0.5299);
+\draw[draw=none,fill=black] (axis cs:8.2,0) rectangle (axis cs:8.6,0.5123);
+\draw[draw=none,fill=black] (axis cs:9.2,0) rectangle (axis cs:9.6,0.5009);
+\end{groupplot}
+
+\draw ({$(current bounding box.south west)!0.5!(current bounding box.south east)$}|-{$(current bounding box.south west)!0.04!(current bounding box.north west)$}) node[
+  scale=0.5,
+  anchor=base,
+  text=black,
+  rotate=0.0
+]{Number of ensembled models};
+\end{tikzpicture}

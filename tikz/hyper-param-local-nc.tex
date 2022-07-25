@@ -1,0 +1,609 @@
+% This file was created with tikzplotlib v0.10.1.
+\begin{tikzpicture}
+
+\definecolor{darkgray176}{RGB}{176,176,176}
+\definecolor{darkorange25512714}{RGB}{255,127,14}
+\definecolor{lightgray}{RGB}{211,211,211}
+\definecolor{lightgray204}{RGB}{204,204,204}
+
+\begin{axis}[
+legend cell align={left},
+legend columns=4,
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, draw=lightgray204},
+tick align=outside,
+tick pos=left,
+x grid style={darkgray176},
+xmin=-1, xmax=7,
+xtick style={color=black},
+xtick={0,2,4,6},
+xticklabels={
+  {\(\displaystyle \alpha\)=0.5, g},
+  {\(\displaystyle \alpha\)=0.5, \(\displaystyle \neg\)g},
+  {\(\displaystyle \alpha\)=5.0, g},
+  {\(\displaystyle \alpha\)=5.0, \(\displaystyle \neg\)g}
+},
+y grid style={darkgray176},
+ylabel={Local cross-validation F1 score},
+ymin=0.36, ymax=0.62,
+ytick style={color=black}
+]
+\draw[draw=black,fill=white,postaction={pattern=crosshatch}] (axis cs:98.5,0) rectangle (axis cs:98.6,0);
+\addlegendimage{ybar,ybar legend,draw=black,fill=white,postaction={pattern=crosshatch}}
+\addlegendentry{$\neg$f, $\neg$v}
+
+\draw[draw=black,fill=white,postaction={pattern=crosshatch}] (axis cs:98.6,0) rectangle (axis cs:98.7,0);
+\draw[draw=black,fill=white,postaction={pattern=crosshatch}] (axis cs:98.7,0) rectangle (axis cs:98.8,0);
+\draw[draw=black,fill=white,postaction={pattern=crosshatch}] (axis cs:98.8,0) rectangle (axis cs:98.9,0);
+\draw[draw=black,fill=white,postaction={pattern=crosshatch}] (axis cs:98.9,0) rectangle (axis cs:99,0);
+\draw[draw=black,fill=white,postaction={pattern=crosshatch}] (axis cs:99,0) rectangle (axis cs:99.1,1);
+\draw[draw=black,fill=white,postaction={pattern=crosshatch}] (axis cs:99.1,0) rectangle (axis cs:99.2,0);
+\draw[draw=black,fill=white,postaction={pattern=crosshatch}] (axis cs:99.2,0) rectangle (axis cs:99.3,0);
+\draw[draw=black,fill=white,postaction={pattern=crosshatch}] (axis cs:99.3,0) rectangle (axis cs:99.4,0);
+\draw[draw=black,fill=white,postaction={pattern=crosshatch}] (axis cs:99.4,0) rectangle (axis cs:99.5,0);
+\draw[draw=black,fill=white] (axis cs:98.5,0) rectangle (axis cs:98.6,0);
+\addlegendimage{ybar,ybar legend,draw=black,fill=white}
+\addlegendentry{$\neg$f, v}
+
+\draw[draw=black,fill=white] (axis cs:98.6,0) rectangle (axis cs:98.7,0);
+\draw[draw=black,fill=white] (axis cs:98.7,0) rectangle (axis cs:98.8,0);
+\draw[draw=black,fill=white] (axis cs:98.8,0) rectangle (axis cs:98.9,0);
+\draw[draw=black,fill=white] (axis cs:98.9,0) rectangle (axis cs:99,0);
+\draw[draw=black,fill=white] (axis cs:99,0) rectangle (axis cs:99.1,1);
+\draw[draw=black,fill=white] (axis cs:99.1,0) rectangle (axis cs:99.2,0);
+\draw[draw=black,fill=white] (axis cs:99.2,0) rectangle (axis cs:99.3,0);
+\draw[draw=black,fill=white] (axis cs:99.3,0) rectangle (axis cs:99.4,0);
+\draw[draw=black,fill=white] (axis cs:99.4,0) rectangle (axis cs:99.5,0);
+\draw[draw=black,fill=black] (axis cs:98.5,0) rectangle (axis cs:98.6,0);
+\addlegendimage{ybar,ybar legend,draw=black,fill=black}
+\addlegendentry{f, $\neg$v}
+
+\draw[draw=black,fill=black] (axis cs:98.6,0) rectangle (axis cs:98.7,0);
+\draw[draw=black,fill=black] (axis cs:98.7,0) rectangle (axis cs:98.8,0);
+\draw[draw=black,fill=black] (axis cs:98.8,0) rectangle (axis cs:98.9,0);
+\draw[draw=black,fill=black] (axis cs:98.9,0) rectangle (axis cs:99,0);
+\draw[draw=black,fill=black] (axis cs:99,0) rectangle (axis cs:99.1,1);
+\draw[draw=black,fill=black] (axis cs:99.1,0) rectangle (axis cs:99.2,0);
+\draw[draw=black,fill=black] (axis cs:99.2,0) rectangle (axis cs:99.3,0);
+\draw[draw=black,fill=black] (axis cs:99.3,0) rectangle (axis cs:99.4,0);
+\draw[draw=black,fill=black] (axis cs:99.4,0) rectangle (axis cs:99.5,0);
+\draw[draw=black,fill=lightgray] (axis cs:98.5,0) rectangle (axis cs:98.6,0);
+\addlegendimage{ybar,ybar legend,draw=black,fill=lightgray}
+\addlegendentry{f, v}
+
+\draw[draw=black,fill=lightgray] (axis cs:98.6,0) rectangle (axis cs:98.7,0);
+\draw[draw=black,fill=lightgray] (axis cs:98.7,0) rectangle (axis cs:98.8,0);
+\draw[draw=black,fill=lightgray] (axis cs:98.8,0) rectangle (axis cs:98.9,0);
+\draw[draw=black,fill=lightgray] (axis cs:98.9,0) rectangle (axis cs:99,0);
+\draw[draw=black,fill=lightgray] (axis cs:99,0) rectangle (axis cs:99.1,1);
+\draw[draw=black,fill=lightgray] (axis cs:99.1,0) rectangle (axis cs:99.2,0);
+\draw[draw=black,fill=lightgray] (axis cs:99.2,0) rectangle (axis cs:99.3,0);
+\draw[draw=black,fill=lightgray] (axis cs:99.3,0) rectangle (axis cs:99.4,0);
+\draw[draw=black,fill=lightgray] (axis cs:99.4,0) rectangle (axis cs:99.5,0);
+\path [draw=black, postaction={pattern=crosshatch}]
+(axis cs:-0.65,0.373775)
+--(axis cs:-0.35,0.373775)
+--(axis cs:-0.35,0.379375)
+--(axis cs:-0.65,0.379375)
+--(axis cs:-0.65,0.373775)
+--cycle;
+\addplot [black, forget plot]
+table {%
+-0.5 0.373775
+-0.5 0.3684
+};
+\addplot [black, forget plot]
+table {%
+-0.5 0.379375
+-0.5 0.3876
+};
+\addplot [black, forget plot]
+table {%
+-0.575 0.3684
+-0.425 0.3684
+};
+\addplot [black, forget plot]
+table {%
+-0.575 0.3876
+-0.425 0.3876
+};
+\addplot [black, mark=o, mark size=3, mark options={solid,fill opacity=0}, only marks, forget plot]
+table {%
+-0.5 0.392
+};
+\path [draw=black, postaction={pattern=crosshatch}]
+(axis cs:1.15,0.5249)
+--(axis cs:1.45,0.5249)
+--(axis cs:1.45,0.535)
+--(axis cs:1.15,0.535)
+--(axis cs:1.15,0.5249)
+--cycle;
+\addplot [black, forget plot]
+table {%
+1.3 0.5249
+1.3 0.5206
+};
+\addplot [black, forget plot]
+table {%
+1.3 0.535
+1.3 0.5472
+};
+\addplot [black, forget plot]
+table {%
+1.225 0.5206
+1.375 0.5206
+};
+\addplot [black, forget plot]
+table {%
+1.225 0.5472
+1.375 0.5472
+};
+\path [draw=black, postaction={pattern=crosshatch}]
+(axis cs:3.25,0.380925)
+--(axis cs:3.55,0.380925)
+--(axis cs:3.55,0.3899)
+--(axis cs:3.25,0.3899)
+--(axis cs:3.25,0.380925)
+--cycle;
+\addplot [black, forget plot]
+table {%
+3.4 0.380925
+3.4 0.3754
+};
+\addplot [black, forget plot]
+table {%
+3.4 0.3899
+3.4 0.3964
+};
+\addplot [black, forget plot]
+table {%
+3.325 0.3754
+3.475 0.3754
+};
+\addplot [black, forget plot]
+table {%
+3.325 0.3964
+3.475 0.3964
+};
+\path [draw=black, postaction={pattern=crosshatch}]
+(axis cs:5.15,0.537575)
+--(axis cs:5.45,0.537575)
+--(axis cs:5.45,0.54795)
+--(axis cs:5.15,0.54795)
+--(axis cs:5.15,0.537575)
+--cycle;
+\addplot [black, forget plot]
+table {%
+5.3 0.537575
+5.3 0.5286
+};
+\addplot [black, forget plot]
+table {%
+5.3 0.54795
+5.3 0.5554
+};
+\addplot [black, forget plot]
+table {%
+5.225 0.5286
+5.375 0.5286
+};
+\addplot [black, forget plot]
+table {%
+5.225 0.5554
+5.375 0.5554
+};
+\path [draw=black, fill=white]
+(axis cs:-0.25,0.373725)
+--(axis cs:0.05,0.373725)
+--(axis cs:0.05,0.3829)
+--(axis cs:-0.25,0.3829)
+--(axis cs:-0.25,0.373725)
+--cycle;
+\addplot [black, forget plot]
+table {%
+-0.1 0.373725
+-0.1 0.3708
+};
+\addplot [black, forget plot]
+table {%
+-0.1 0.3829
+-0.1 0.3963
+};
+\addplot [black, forget plot]
+table {%
+-0.175 0.3708
+-0.025 0.3708
+};
+\addplot [black, forget plot]
+table {%
+-0.175 0.3963
+-0.025 0.3963
+};
+\path [draw=black, fill=white]
+(axis cs:1.55,0.533375)
+--(axis cs:1.85,0.533375)
+--(axis cs:1.85,0.5424)
+--(axis cs:1.55,0.5424)
+--(axis cs:1.55,0.533375)
+--cycle;
+\addplot [black, forget plot]
+table {%
+1.7 0.533375
+1.7 0.5269
+};
+\addplot [black, forget plot]
+table {%
+1.7 0.5424
+1.7 0.5491
+};
+\addplot [black, forget plot]
+table {%
+1.625 0.5269
+1.775 0.5269
+};
+\addplot [black, forget plot]
+table {%
+1.625 0.5491
+1.775 0.5491
+};
+\path [draw=black, fill=white]
+(axis cs:3.65,0.382)
+--(axis cs:3.95,0.382)
+--(axis cs:3.95,0.388375)
+--(axis cs:3.65,0.388375)
+--(axis cs:3.65,0.382)
+--cycle;
+\addplot [black, forget plot]
+table {%
+3.8 0.382
+3.8 0.3731
+};
+\addplot [black, forget plot]
+table {%
+3.8 0.388375
+3.8 0.3974
+};
+\addplot [black, forget plot]
+table {%
+3.725 0.3731
+3.875 0.3731
+};
+\addplot [black, forget plot]
+table {%
+3.725 0.3974
+3.875 0.3974
+};
+\addplot [black, mark=o, mark size=3, mark options={solid,fill opacity=0}, only marks, forget plot]
+table {%
+3.8 0.3981
+3.8 0.4007
+};
+\path [draw=black, fill=white]
+(axis cs:5.55,0.526825)
+--(axis cs:5.85,0.526825)
+--(axis cs:5.85,0.536025)
+--(axis cs:5.55,0.536025)
+--(axis cs:5.55,0.526825)
+--cycle;
+\addplot [black, forget plot]
+table {%
+5.7 0.526825
+5.7 0.5136
+};
+\addplot [black, forget plot]
+table {%
+5.7 0.536025
+5.7 0.5466
+};
+\addplot [black, forget plot]
+table {%
+5.625 0.5136
+5.775 0.5136
+};
+\addplot [black, forget plot]
+table {%
+5.625 0.5466
+5.775 0.5466
+};
+\path [draw=black, fill=black]
+(axis cs:0.15,0.38305)
+--(axis cs:0.45,0.38305)
+--(axis cs:0.45,0.394075)
+--(axis cs:0.15,0.394075)
+--(axis cs:0.15,0.38305)
+--cycle;
+\addplot [black, forget plot]
+table {%
+0.3 0.38305
+0.3 0.3781
+};
+\addplot [black, forget plot]
+table {%
+0.3 0.394075
+0.3 0.3991
+};
+\addplot [black, forget plot]
+table {%
+0.225 0.3781
+0.375 0.3781
+};
+\addplot [black, forget plot]
+table {%
+0.225 0.3991
+0.375 0.3991
+};
+\path [draw=black, fill=black]
+(axis cs:1.95,0.525725)
+--(axis cs:2.25,0.525725)
+--(axis cs:2.25,0.533925)
+--(axis cs:1.95,0.533925)
+--(axis cs:1.95,0.525725)
+--cycle;
+\addplot [black, forget plot]
+table {%
+2.1 0.525725
+2.1 0.5224
+};
+\addplot [black, forget plot]
+table {%
+2.1 0.533925
+2.1 0.5447
+};
+\addplot [black, forget plot]
+table {%
+2.025 0.5224
+2.175 0.5224
+};
+\addplot [black, forget plot]
+table {%
+2.025 0.5447
+2.175 0.5447
+};
+\path [draw=black, fill=black]
+(axis cs:4.05,0.3957)
+--(axis cs:4.35,0.3957)
+--(axis cs:4.35,0.4039)
+--(axis cs:4.05,0.4039)
+--(axis cs:4.05,0.3957)
+--cycle;
+\addplot [black, forget plot]
+table {%
+4.2 0.3957
+4.2 0.3876
+};
+\addplot [black, forget plot]
+table {%
+4.2 0.4039
+4.2 0.4104
+};
+\addplot [black, forget plot]
+table {%
+4.125 0.3876
+4.275 0.3876
+};
+\addplot [black, forget plot]
+table {%
+4.125 0.4104
+4.275 0.4104
+};
+\path [draw=black, fill=black]
+(axis cs:5.95,0.53415)
+--(axis cs:6.25,0.53415)
+--(axis cs:6.25,0.54435)
+--(axis cs:5.95,0.54435)
+--(axis cs:5.95,0.53415)
+--cycle;
+\addplot [black, forget plot]
+table {%
+6.1 0.53415
+6.1 0.5195
+};
+\addplot [black, forget plot]
+table {%
+6.1 0.54435
+6.1 0.5521
+};
+\addplot [black, forget plot]
+table {%
+6.025 0.5195
+6.175 0.5195
+};
+\addplot [black, forget plot]
+table {%
+6.025 0.5521
+6.175 0.5521
+};
+\path [draw=black, fill=lightgray]
+(axis cs:0.55,0.375375)
+--(axis cs:0.85,0.375375)
+--(axis cs:0.85,0.382275)
+--(axis cs:0.55,0.382275)
+--(axis cs:0.55,0.375375)
+--cycle;
+\addplot [black, forget plot]
+table {%
+0.7 0.375375
+0.7 0.3717
+};
+\addplot [black, forget plot]
+table {%
+0.7 0.382275
+0.7 0.3917
+};
+\addplot [black, forget plot]
+table {%
+0.625 0.3717
+0.775 0.3717
+};
+\addplot [black, forget plot]
+table {%
+0.625 0.3917
+0.775 0.3917
+};
+\addplot [black, mark=o, mark size=3, mark options={solid,fill opacity=0}, only marks, forget plot]
+table {%
+0.7 0.3932
+};
+\path [draw=black, fill=lightgray]
+(axis cs:2.35,0.52835)
+--(axis cs:2.65,0.52835)
+--(axis cs:2.65,0.53635)
+--(axis cs:2.35,0.53635)
+--(axis cs:2.35,0.52835)
+--cycle;
+\addplot [black, forget plot]
+table {%
+2.5 0.52835
+2.5 0.5195
+};
+\addplot [black, forget plot]
+table {%
+2.5 0.53635
+2.5 0.5458
+};
+\addplot [black, forget plot]
+table {%
+2.425 0.5195
+2.575 0.5195
+};
+\addplot [black, forget plot]
+table {%
+2.425 0.5458
+2.575 0.5458
+};
+\path [draw=black, fill=lightgray]
+(axis cs:4.45,0.38785)
+--(axis cs:4.75,0.38785)
+--(axis cs:4.75,0.39905)
+--(axis cs:4.45,0.39905)
+--(axis cs:4.45,0.38785)
+--cycle;
+\addplot [black, forget plot]
+table {%
+4.6 0.38785
+4.6 0.3801
+};
+\addplot [black, forget plot]
+table {%
+4.6 0.39905
+4.6 0.4105
+};
+\addplot [black, forget plot]
+table {%
+4.525 0.3801
+4.675 0.3801
+};
+\addplot [black, forget plot]
+table {%
+4.525 0.4105
+4.675 0.4105
+};
+\path [draw=black, fill=lightgray]
+(axis cs:6.35,0.543575)
+--(axis cs:6.65,0.543575)
+--(axis cs:6.65,0.553625)
+--(axis cs:6.35,0.553625)
+--(axis cs:6.35,0.543575)
+--cycle;
+\addplot [black, forget plot]
+table {%
+6.5 0.543575
+6.5 0.5325
+};
+\addplot [black, forget plot]
+table {%
+6.5 0.553625
+6.5 0.5608
+};
+\addplot [black, forget plot]
+table {%
+6.425 0.5325
+6.575 0.5325
+};
+\addplot [black, forget plot]
+table {%
+6.425 0.5608
+6.575 0.5608
+};
+\addplot [darkorange25512714, forget plot]
+table {%
+-0.65 0.37585
+-0.35 0.37585
+};
+\addplot [darkorange25512714, forget plot]
+table {%
+1.15 0.5287
+1.45 0.5287
+};
+\addplot [darkorange25512714, forget plot]
+table {%
+3.25 0.38545
+3.55 0.38545
+};
+\addplot [darkorange25512714, forget plot]
+table {%
+5.15 0.5428
+5.45 0.5428
+};
+\addplot [darkorange25512714, forget plot]
+table {%
+-0.25 0.3773
+0.05 0.3773
+};
+\addplot [darkorange25512714, forget plot]
+table {%
+1.55 0.53885
+1.85 0.53885
+};
+\addplot [darkorange25512714, forget plot]
+table {%
+3.65 0.38515
+3.95 0.38515
+};
+\addplot [darkorange25512714, forget plot]
+table {%
+5.55 0.5307
+5.85 0.5307
+};
+\addplot [darkorange25512714, forget plot]
+table {%
+0.15 0.38865
+0.45 0.38865
+};
+\addplot [darkorange25512714, forget plot]
+table {%
+1.95 0.5293
+2.25 0.5293
+};
+\addplot [darkorange25512714, forget plot]
+table {%
+4.05 0.4009
+4.35 0.4009
+};
+\addplot [darkorange25512714, forget plot]
+table {%
+5.95 0.54075
+6.25 0.54075
+};
+\addplot [darkorange25512714, forget plot]
+table {%
+0.55 0.37805
+0.85 0.37805
+};
+\addplot [darkorange25512714, forget plot]
+table {%
+2.35 0.53355
+2.65 0.53355
+};
+\addplot [darkorange25512714, forget plot]
+table {%
+4.45 0.3948
+4.75 0.3948
+};
+\addplot [darkorange25512714, forget plot]
+table {%
+6.35 0.5487
+6.65 0.5487
+};
+\end{axis}
+
+\end{tikzpicture}

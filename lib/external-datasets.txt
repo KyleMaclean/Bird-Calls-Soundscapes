@@ -1,0 +1,4 @@
+Rain Forest: https://kaggle.com/c/rfcx-species-audio-detection
+freefield1010: https://archive.org/details/freefield1010
+Chernobyl BiVA: https://catalogue.ceh.ac.uk/documents/be5639e9-75e9-4aa3-afdd-65ba80352591
+BirdVox-full-night: https://wp.nyu.edu/birdvox/birdvox-full-night/
